@@ -1,0 +1,137 @@
+
+body {
+  background-color: #0b0e14; 
+  color: #e2e8f0;           
+  font-family: 'Segoe UI', Consolas, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.profile-card {
+  background: linear-gradient(145deg, #121824, #1a2332);
+  width: 100%;
+  max-width: 440px;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #2b3a4e;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.15);
+  text-align: center;
+}
+
+.system-tag {
+  font-size: 11px;
+  color: #38bdf8;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+
+.profile-title {
+  color: #f8fafc;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+.avatar {
+  width: 85px;
+  height: 85px;
+  background-color: #0f172a;
+  border: 2px solid #38bdf8;
+  color: #38bdf8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px auto;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.3);
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 5px 0 0 0;
+}
+
+.modifier {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fbbf24; 
+  margin: 5px 0 15px 0;
+  letter-spacing: 0.5px;
+}
+
+
+.profile-bio {
+  font-size: 13px;
+  font-style: italic;
+  color: #94a3b8;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.profile-bio span {
+  color: #38bdf8;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #1e293b;
+  margin: 20px 0;
+}
+
+
+.info-section h3 {
+  font-size: 14px;
+  color: #38bdf8;
+  text-align: left;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.info-list li {
+  font-size: 13px;
+  padding: 9px 12px;
+  margin-bottom: 8px;
+  background-color: #0f172a;
+  border-left: 3px solid #38bdf8;
+  border-radius: 4px;
+  color: #cbd5e1;
+}
+
+.info-list li strong {
+  color: #f1f5f9;
+}
+
+
+.quote {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 12px;
+  font-style: italic;
+  color: #fbbf24;
+  background-color: rgba(251, 191, 36, 0.05);
+  border-radius: 4px;
+  border: 1px dashed rgba(251, 191, 36, 0.3);
+}
