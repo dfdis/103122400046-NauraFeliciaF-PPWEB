@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Toko Kampus</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="mx-auto max-w-6xl px-4 py-8">
+        <header id="beranda" class="bg-white p-6 text-center rounded-2xl shadow-sm">
+            <h1 class="text-3xl font-bold">
+                Toko Kampus
+            </h1>
+
+            <p class="mt-2 text-gray-600">
+                Perlengkapan kuliah untuk kebutuhan sehari-hari
+            </p>
+        </header>
+
+        <nav class="mt-5 flex justify-center gap-6">
+            <a href="#beranda" class="text-pink-600 hover:text-pink-800">
+                Beranda
+            </a>
+
+            <a href="#produk" class="text-pink-600 hover:text-pink-800">
+                Produk
+            </a>
+
+            <a href="#kontak" class="text-pink-600 hover:text-pink-800">
+                Kontak
+            </a>
+
+        </nav>
+
+        <main id="produk" class="mt-10">
+            <h2 class="mb-5 text-2xl font-bold">
+                Produk
+            </h2>
+        </main>
+
+
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <article class="bg-white p-4 rounded-xl shadow-md">
+                <img src="assets/buku-catatan.jpg" alt="Buku Catatan" class="w-full h-48 object-cover rounded-lg">
+
+                <h3 class="mt-4 text-lg font-bold">
+                    Buku Catatan
+                </h3>
+
+                <p class="mt-1 font-semibold text-pink-700">
+                    Rp15.000
+                </p>
+
+                <p class="mt-2 text-gray-600">
+                    Buku motif lucu untuk mencatat materi kuliah.
+                </p>
+
+                <a href="#detail-buku" class="mt-4 inline-block bg-pink-600 px-4 py-2 text-sm font-medium text-white rounded-lg hover:bg-pink-800">
+                    Lihat Detail
+                </a>
+
+            </article>
+
+            <article class="bg-white p-4 rounded-xl shadow-md">
+                <img src="assets/pulpen.jpg" alt="Pulpen" class="w-full h-48 object-cover rounded-lg">
+
+                <h3 class="mt-4 text-lg font-bold">
+                    Pulpen
+                </h3>
+
+                <p class="mt-1 font-semibold text-pink-700">
+                    Rp5.000
+                </p>
+
+                <p class="mt-2 text-gray-600">
+                    Pulpen untuk menulis catatan kuliah.
+                </p>
+
+                <a href="#detail-pulpen" class="mt-4 inline-block bg-pink-600 px-4 py-2 text-sm font-medium text-white rounded-lg hover:bg-pink-800">
+                    Lihat Detail
+                </a>
+            </article>
+
+            <article class="bg-white p-4 rounded-xl shadow-md">
+                <img src="assets/tumbler.jpg" alt="Tumbler" class="w-full h-48 object-cover rounded-lg">
+
+                <h3 class="mt-4 text-lg font-bold">
+                    Tumbler
+                </h3>
+
+                <p class="mt-1 font-semibold text-pink-700">
+                    Rp35.000
+                </p>
+
+                <p class="mt-2 text-gray-600">
+                    Botol minum untuk dibawa ke kampus.
+                </p>
+    
+                <a href="#detail-tumbler" class="mt-4 inline-block bg-pink-600 px-4 py-2 text-sm font-medium text-white rounded-lg hover:bg-pink-800">
+                    Lihat Detail
+                </a>
+
+            </article>
+
+            <article class="bg-white p-4 rounded-xl shadow-md">
+                <img src="assets/tas-kuliah.jpg" alt="Tas Kuliah" class="w-full h-48 object-cover rounded-lg">
+
+                <h3 class="mt-4 text-lg font-bold">
+                    Tas Kuliah
+                </h3>
+
+                <p class="mt-1 font-semibold text-pink-700">
+                    Rp120.000
+                </p>
+                
+                <p class="mt-2 text-gray-600">
+                    Tas untuk menyimpan buku dan alat tulis.
+                </p>
+                
+                <a href="#detail-tas" class="mt-4 inline-block bg-pink-600 px-4 py-2 text-sm font-medium text-white rounded-lg hover:bg-pink-800">
+                    Lihat Detail
+                </a>
+            </article>
+        </div>
+
+
+        <section class="mt-12">
+
+            <h2 class="text-2xl font-bold">
+                Detail Produk
+            </h2>
+
+        </section>
+
+            <article id="detail-buku" class="mt-6 bg-white p-6 rounded-xl shadow-sm">
+
+                <h3 class="text-xl font-bold">
+                    Buku Catatan
+                </h3>
+
+                <p class="mt-2 text-gray-600">
+                    Bahan kertas 70 gsm, ukuran A5, 80 lembar.
+                </p>
+
+            </article>
+
+            <article id="detail-pulpen" class="mt-6 bg-white p-6 rounded-xl shadow-sm">
+
+                <h3 class="text-xl font-bold">
+                    Pulpen
+                </h3>
+
+                <p class="mt-2 text-gray-600">
+                    Pulpen tinta hitam, nyaman digunakan untuk menulis.
+                </p>
+
+            </article>
+
+            <article id="detail-tumbler" class="mt-6 bg-white p-6 rounded-xl shadow-sm">
+
+                <h3 class="text-xl font-bold">
+                    Tumbler
+                </h3>
+
+                <p class="mt-2 text-gray-600">
+                    Tumbler stainless steel, kapasitas 500ml, menjaga minuman tetap panas/dingin.
+                </p>
+            </article>
+
+            <article id="detail-tas" class="mt-6 bg-white p-6 rounded-xl shadow-sm">
+
+                <h3 class="text-xl font-bold">
+                    Tas Kuliah
+                </h3>
+
+                <p class="mt-2 text-gray-600">
+                    Tas ransel dengan banyak kompartemen, nyaman digunakan untuk membawa buku dan laptop.
+                </p>
+            </article>
+        
+        <footer id="kontak" class="mt-12 bg-pink-100 p-6 text-center text-pink-900">
+
+            <h2 class="text-xl font-bold">
+                Hubungi Kami
+            </h2>
+
+            <p class="mt-2">
+                Toko Kampus
+            </p>
+
+            <a href="mailto:toko@example.com" class="text-pink-700 hover:text-pink-900">
+                toko@example.com
+            </a>
+
+        </footer>
+    </div>
+</body>
+</html>
